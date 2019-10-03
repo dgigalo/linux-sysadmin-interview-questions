@@ -1,7 +1,7 @@
 Вопросы, которые задают на собеседовании администраторам Linux и инженерам DevOps
 ====================================================
 
-A collection of linux sysadmin/devops interview questions. Feel free to contribute via pull requests, issues or email messages.
+Вопросы собраны из разных источников интернета. Добавляйте свои
 
 
 ## <a name='toc'>Table of Contents</a>
@@ -21,7 +21,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 
 #### [[⬆]](#toc) <a name='general'>General Questions:</a>
 
-* What did you learn yesterday/this week?
+* Что вы изучали в последнее время?
 * Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
 * Tell me about the last major Linux project you finished.
 * Tell me about the biggest mistake you've made in [some recent time period] and how you would do it differently today. What did you learn from this experience?
