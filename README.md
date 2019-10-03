@@ -1,4 +1,4 @@
-Linux System Administrator/DevOps Interview Questions
+Вопросы, которые задают на собеседовании администраторам Linux и инженерам DevOps
 ====================================================
 
 A collection of linux sysadmin/devops interview questions. Feel free to contribute via pull requests, issues or email messages.
@@ -6,7 +6,6 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 
 ## <a name='toc'>Table of Contents</a>
 
-  1. [Contributors](#contributors)
   1. [General Questions](#general)
   1. [Simple Linux Questions](#simple)
   1. [Medium Linux Questions](#medium)
@@ -18,21 +17,6 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
   1. [Fun Questions](#fun)
   1. [Demo Time](#demo)
   1. [Other Great References](#references)
-
-
-#### [[⬆]](#toc) <a name='contributors'>Contributors:</a>
-
-* [moregeek](https://github.com/moregeek)
-* [typhonius](https://github.com/typhonius)
-* [schumar](https://github.com/schumar)
-* [negesti](https://github.com/negesti)
-* peter
-* [andreashappe](https://github.com/andreashappe)
-* [quatrix](https://github.com/quatrix)
-* [biyanisuraj](https://github.com/biyanisuraj)
-* [pedroguima](https://github.com/pedroguima)
-* Ben
-* [bharatnc](https://github.com/bharatnc)
 
 
 #### [[⬆]](#toc) <a name='general'>General Questions:</a>
