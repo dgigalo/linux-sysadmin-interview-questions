@@ -6,8 +6,8 @@
 
 ## <a name='toc'>Table of Contents</a>
 
-  1. [General Questions](#general)
-  1. [Simple Linux Questions](#simple)
+  1. [Общие вопросы](#general)
+  1. [Простые вопросы](#simple)
   1. [Medium Linux Questions](#medium)
   1. [Hard Linux Questions](#hard)
   1. [Expert Linux Questions](#expert)
@@ -19,7 +19,7 @@
   1. [Other Great References](#references)
 
 
-#### [[⬆]](#toc) <a name='general'>General Questions:</a>
+#### [[⬆]](#toc) <a name='general'>Общие вопросы:</a>
 
 * Что вы изучали в последнее время?
 * Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
@@ -37,9 +37,9 @@
 * Which difference have between public and private SSH key?
 
 
-#### [[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
+#### [[⬆]](#toc) <a name='simple'>Простые вопросы:</a>
 
-* What is the name and the UID of the administrator user?
+* Как называется главный пользователь Linux системы и назовите его UID?
 * How to list all files, including hidden ones, in a directory?
 * What is the Unix/Linux command to remove a directory and its contents?
 * Which command will show you free/used memory? Does free memory exist on Linux?
@@ -70,7 +70,8 @@
 * What is a Linux kernel module?
 * Walk me through the steps in booting into single user mode to troubleshoot a problem.
 * Walk me through the steps you'd take to troubleshoot a 404 error on a web application you administer.
-* What is ICMP protocol? Why do you need to use?
+* Что такое протокол ICMP? Для чего используется?
+* Что такое уровень запуска и как посмотреть текущий?
 
 #### [[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
 
