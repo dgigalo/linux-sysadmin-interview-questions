@@ -64,7 +64,10 @@
 * Что такое модуль ядра Linux'a?
 * Что такое протокол ICMP? Для чего используется?
 * Что такое уровень запуска и как посмотреть текущий?
-<a href="https://aix-adm.blogspot.com/2019/10/linux.html"> Ответы </a>
+<br>
+<a href="https://aix-adm.blogspot.com/2019/10/linux.html"> Вопросы с ответами </a>
+
+
 #### [[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
 
 * What do the following commands do and how would you use them?
