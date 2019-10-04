@@ -14,7 +14,7 @@
   1. [Networking Questions](#network)
   1. [MySQL Questions](#mysql)
   1. [DevOps Questions](#devop)
-  1. [Fun Questions](#fun)
+  1. [Веселые вопросы](#fun)
   1. [Demo Time](#demo)
   1. [Other Great References](#references)
 
@@ -231,7 +231,7 @@
 * What are the important aspects of a system of continuous integration and deployment?
 * How would you enable network file sharing within AWS that would allow EC2 instances in multiple availability zones to share data?
 
-#### [[⬆]](#toc) <a name='fun'>Fun Questions:</a>
+#### [[⬆]](#toc) <a name='fun'>Веселые вопросы:</a>
 
 * A careless sysadmin executes the following command: ```chmod 444 /bin/chmod ``` - what do you do to fix this?
 * I've lost my root password, what can I do?
