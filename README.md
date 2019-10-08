@@ -233,16 +233,14 @@
 
 #### [[⬆]](#toc) <a name='fun'>Веселые вопросы:</a>
 
-* A careless sysadmin executes the following command: ```chmod 444 /bin/chmod ``` - what do you do to fix this?
-* I've lost my root password, what can I do?
-* I've rebooted a remote server but after 10 minutes I'm still not able to ssh into it, what can be wrong?
-* If you were stuck on a desert island with only 5 command-line utilities, which would you choose?
-* You come across a random computer and it appears to be a command console for the universe. What is the first thing you type?
-* Tell me about a creative way that you've used SSH?
-* You have deleted by error a running script, what could you do to restore it?
+* Админ случайно выполнил команду: ```chmod 444 /bin/chmod ```. Как починить?
+* Вы забыли(потеряли) пароль рута, что делать? 
+* Вы перезапустили удаленно сервер, но через 10 минут вы по-прежнему не можете к нему подключиться по SSH. В чем может быть проблема?
+* Вы застряли на необитаемом острове, какие 5 утилит командной строки вы бы выбрали?
+* Вы случайно удалали файл с запущенным скриптом, возможно ли его можно восстановить? 
 * What will happen on 19 January 2038?
 * How to reboot server when reboot command is not responding?
-
+<a href="https://dev-engineer.blogspot.com/2019/10/linux_8.html"> Вопросы с ответами </a>
 
 #### [[⬆]](#toc) <a name='demo'>Demo Time:</a>
 
