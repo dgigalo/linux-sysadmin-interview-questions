@@ -92,10 +92,10 @@
  * ```lsof```
 * В директории 500 файлов, необходимо найти все файлы свыше 20 ГБ, отсортировать по размеру, отобразить 5 самых больших файлов.
 * Как разделить файл на несколько частей без архиватора? Например, 10 гб файл разделить по 1 гб.
-* What does an ```&``` after a command do?
-* What does ```& disown``` after a command do?
-* What is a packet filter and how does it work?
-* What is Virtual Memory?
+* Что обозначает ```&``` после команды?
+* Что обозначает ```& disown``` после команды?
+* Что такое фильтр пакетов (packet filter) и как он работает?
+* Что такое виртуальная память(Virtual Memory)?
 * What is swap and what is it used for?
 * What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
 * Are there any other RRs and what are they used for?
