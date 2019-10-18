@@ -22,19 +22,21 @@
 #### [[⬆]](#toc) <a name='general'>Общие вопросы:</a>
 
 * Что вы изучали в последнее время?
-* Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
+* Расскажите какие инструменты разработки/администрирования вы используете(OS, Editor, Browsers, Tools etc.)
 * Tell me about the last major Linux project you finished.
 * Tell me about the biggest mistake you've made in [some recent time period] and how you would do it differently today. What did you learn from this experience?
 * Why we must choose you?
 * What function does DNS play on a network?
-* What is HTTP?
+* Что такое HTTP?
 * What is an HTTP proxy and how does it work?
 * Describe briefly how HTTPS works.
+* What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
 * What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
 * What is a level 0 backup? What is an incremental backup?
 * Describe the general file system hierarchy of a Linux system.
 * Which difference have between public and private SSH key?
+* Что такое Split-Horizon DNS?
 
 
 #### [[⬆]](#toc) <a name='simple'>Простые вопросы:</a>
@@ -96,11 +98,9 @@
 * Что обозначает ```& disown``` после команды?
 * Что такое фильтр пакетов (packet filter) и как он работает?
 * Что такое виртуальная память(Virtual Memory)?
-* What is swap and what is it used for?
-* What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
-* Are there any other RRs and what are they used for?
-* What is a Split-Horizon DNS?
-* What is the sticky bit?
+* Что такое swap и для чего используется?
+* Какие записи ДНС вы знаете, для чего они используются?
+* Что такое "sticky bit"?
 * What does the immutable bit do to a file?
 * What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
 * What is an inode and what fields are stored in an inode?
