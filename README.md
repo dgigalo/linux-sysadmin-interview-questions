@@ -101,12 +101,10 @@
 * Что такое swap и для чего используется?
 * Какие записи ДНС вы знаете, для чего они используются?
 * Что такое "sticky bit"?
-* What does the immutable bit do to a file?
-* What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
-* What is an inode and what fields are stored in an inode?
-* How to force/trigger a file system check on next reboot?
-* What is SNMP and what is it used for?
-* What is a runlevel and how to get the current runlevel?
+* Для чего предназначен бит неизменяемости(immutable bit)?
+* Что такое жесткая ссылка, символическая? Чем отличаются? Что произойдет если удалить источник, на который указывает ссылка?
+* Что такое айнод(inode) и какие поля в нем хранятся?
+* Что такое SNMP и для чего он используется?
 * What is SSH port forwarding?
 * What is the difference between local and remote port forwarding?
 * What are the steps to add a user to a system without using useradd/adduser?
