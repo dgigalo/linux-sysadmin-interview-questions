@@ -8,7 +8,7 @@
 
   1. [Общие вопросы](#general)
   1. [Простые вопросы](#simple)
-  1. [Medium Linux Questions](#medium)
+  1. [Вопросы среднего уровня](#medium)
   1. [Hard Linux Questions](#hard)
   1. [Expert Linux Questions](#expert)
   1. [Networking Questions](#network)
@@ -69,7 +69,7 @@
 <a href="https://aix-adm.blogspot.com/2019/10/linux.html"> Вопросы с ответами </a>
 
 
-#### [[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
+#### [[⬆]](#toc) <a name='medium'>Вопросы среднего уровня:</a>
 
 * Что обозначает ```&``` после команды?
 * Что обозначает ```& disown``` после команды?
@@ -97,7 +97,6 @@
 * What is a zombie process and what could be the cause of it?
 * You run a bash script and you want to see its output on your terminal and save it to a file at the same time. How could you do it?
 * Explain what echo "1" > /proc/sys/net/ipv4/ip_forward does.
-* Describe briefly the steps you need to take in order to create and install a valid certificate for the site https://foo.example.com.
 * Can you have several HTTPS virtual hosts sharing the same IP?
 * What is a wildcard certificate?
 * Which Linux file types do you know?
@@ -227,6 +226,7 @@
 * Что такое HTTP-proxy и как он работает?
 * Кратко опишите как работает HTTPS.
 * Что означает директива upstream в настройках nginx'a?
+* Кратко опишите действия по созданию и установке ssl-сертифката для сайта https://foo.example.com
 
 <a href="https://dev-engineer.blogspot.com/2019/11/linux.html"> Вопросы с ответами </a>
 
