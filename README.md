@@ -16,7 +16,7 @@
   1. [DevOps Questions](#devop)
   1. [Веселые вопросы](#fun)
   1. [Веб вопросы](#web)
-  1. [Demo Time](#demo)
+  1. [Практикум](#demo)
   1. [Other Great References](#references)
 
 
@@ -24,10 +24,9 @@
 
 * Что вы изучали в последнее время?
 * Расскажите какие инструменты разработки/администрирования вы используете(OS, Editor, Browsers, Tools etc.)
-* Tell me about the last major Linux project you finished.
-* Tell me about the biggest mistake you've made in [some recent time period] and how you would do it differently today. What did you learn from this experience?
-* Why we must choose you?
-* What function does DNS play on a network?
+* Расскажите о последнем linux-проекте, на котором вы работали.
+* Расскажите какую вы совершили ошибку недавно(давно) и какой вывод вы сделали?
+* Почему мы должны вас выбрать?
 * What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
 * What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
@@ -90,8 +89,6 @@
  * ```netstat```
  * ```tcpdump```
  * ```lsof```
-* В директории 500 файлов, необходимо найти все файлы свыше 20 ГБ, отсортировать по размеру, отобразить 5 самых больших файлов.
-* Как разделить файл на несколько частей без архиватора? Например, 10 гб файл разделить по 1 гб.
 * Что обозначает ```&``` после команды?
 * Что обозначает ```& disown``` после команды?
 * Что такое фильтр пакетов (packet filter) и как он работает?
@@ -103,6 +100,7 @@
 * Что такое жесткая ссылка, символическая? Чем отличаются? Что произойдет если удалить источник, на который указывает ссылка?
 * Что такое айнод(inode) и какие поля в нем хранятся?
 * Что такое SNMP и для чего он используется?
+* Как уменьшить размер файла, который используется в текущий момент(например, файла лога)?
 * What is SSH port forwarding?
 * What is the difference between local and remote port forwarding?
 * What are the steps to add a user to a system without using useradd/adduser?
@@ -198,7 +196,6 @@
 * What will happen when you bind port 0?
 
 
-
 #### [[⬆]](#toc) <a name='mysql'>MySQL questions:</a>
 
 * How do you create a user?
@@ -240,15 +237,21 @@
 * Вы случайно удалали файл с запущенным скриптом, возможно ли его можно восстановить? 
 * Что приозойдет 19 Января 2038?
 * Как перегрузить сервер, если команда reboot  не отвечает?
-<a href="https://dev-engineer.blogspot.com/2019/10/linux_8.html"> Вопросы с ответами </a>
+* Чем отличается rest от json'a? <br />
 
 #### [[⬆]](#toc) <a name='web'>Веб вопросы:</a>
+* Какую функцию выполняет DNS в сети?
 * Что такое HTTP?
-* What is an HTTP proxy and how does it work?
-* Describe briefly how HTTPS works.
+* Что такое HTTP-proxy и как он работает?
+* Кратко опишите как работает HTTPS.
+* Что означает директива upstream в настройках nginx'a?
+
+<a href="https://dev-engineer.blogspot.com/2019/11/linux.html"> Вопросы с ответами </a>
 
 #### [[⬆]](#toc) <a name='demo'>Практикум</a>
 
+* В директории 500 файлов, необходимо найти все файлы свыше 20 ГБ, отсортировать по размеру, отобразить 5 самых больших файлов.
+* Как разделить файл на несколько частей без архиватора? Например, 10 гб файл разделить по 1 гб.
 * Unpack test.tar.gz without man pages or google.
 * Remove all "*.pyc" files from testdir recursively?
 * Search for "my konfu is the best" in all *.py files.
