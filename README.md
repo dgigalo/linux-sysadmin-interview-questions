@@ -15,6 +15,7 @@
   1. [MySQL Questions](#mysql)
   1. [DevOps Questions](#devop)
   1. [Веселые вопросы](#fun)
+  1. [Веб вопросы](#web)
   1. [Demo Time](#demo)
   1. [Other Great References](#references)
 
@@ -27,9 +28,6 @@
 * Tell me about the biggest mistake you've made in [some recent time period] and how you would do it differently today. What did you learn from this experience?
 * Why we must choose you?
 * What function does DNS play on a network?
-* Что такое HTTP?
-* What is an HTTP proxy and how does it work?
-* Describe briefly how HTTPS works.
 * What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
 * What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
@@ -244,7 +242,12 @@
 * Как перегрузить сервер, если команда reboot  не отвечает?
 <a href="https://dev-engineer.blogspot.com/2019/10/linux_8.html"> Вопросы с ответами </a>
 
-#### [[⬆]](#toc) <a name='demo'>Demo Time:</a>
+#### [[⬆]](#toc) <a name='web'>Веб вопросы:</a>
+* Что такое HTTP?
+* What is an HTTP proxy and how does it work?
+* Describe briefly how HTTPS works.
+
+#### [[⬆]](#toc) <a name='demo'>Практикум</a>
 
 * Unpack test.tar.gz without man pages or google.
 * Remove all "*.pyc" files from testdir recursively?
