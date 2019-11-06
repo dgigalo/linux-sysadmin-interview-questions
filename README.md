@@ -17,6 +17,7 @@
   1. [Веселые вопросы](#fun)
   1. [Веб вопросы](#web)
   1. [Практикум](#demo)
+  1. [Команды](#commands)
   1. [Other Great References](#references)
 
 
@@ -34,7 +35,6 @@
 * Describe the general file system hierarchy of a Linux system.
 * Which difference have between public and private SSH key?
 * Что такое Split-Horizon DNS?
-
 
 #### [[⬆]](#toc) <a name='simple'>Простые вопросы:</a>
 
@@ -71,24 +71,6 @@
 
 #### [[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
 
-* Что выполняют следующие команды?
- * ```tee```
- * ```awk```
- * ```tr```
- * ```cut```
- * ```tac```
- * ```curl```
- * ```wget```
- * ```watch```
- * ```head```
- * ```tail```
- * ```less```
- * ```cat```
- * ```touch```
- * ```sar```
- * ```netstat```
- * ```tcpdump```
- * ```lsof```
 * Что обозначает ```&``` после команды?
 * Что обозначает ```& disown``` после команды?
 * Что такое фильтр пакетов (packet filter) и как он работает?
@@ -266,10 +248,32 @@
 * In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occurred every hour or a specific hour.
 
 
+#### [[⬆]](#toc) <a name='commands'>Команды:</a>
+* Что выполняют следующие команды?
+ * ```tee```
+ * ```awk```
+ * ```tr```
+ * ```cut```
+ * ```tac```
+ * ```curl```
+ * ```wget```
+ * ```watch```
+ * ```head```
+ * ```tail```
+ * ```less```
+ * ```cat```
+ * ```touch```
+ * ```sar```
+ * ```netstat```
+ * ```tcpdump```
+ * ```lsof```
+ <a href="https://dev-engineer.blogspot.com/2019/11/linux_44.html"> Вопросы с ответами </a>
+ 
 #### [[⬆]](#toc) <a name='references'>Other Great References:</a>
 
-Some questions are 'borrowed' from other great references like:
+Другие интересные ссылки(некоторые вопросы были позаимствованы):
 
 * https://github.com/darcyclarke/Front-end-Developer-Interview-Questions
 * https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
 * http://slideshare.net/kavyasri790693/linux-admin-interview-questions
+* http://blog.sedicomm.com/2019/09/25/40-voprosov-dlya-sobesedovaniya-na-temu-linux/
