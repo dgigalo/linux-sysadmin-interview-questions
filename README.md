@@ -83,7 +83,7 @@
 * Что такое айнод(inode) и какие поля в нем хранятся?
 * Что такое SNMP и для чего он используется?
 * Как уменьшить размер файла, который используется в текущий момент(например, файла лога)?
-* What is SSH port forwarding?
+* Что такое переадресация SSH-порта?
 * What is the difference between local and remote port forwarding?
 * What are the steps to add a user to a system without using useradd/adduser?
 * What is MAJOR and MINOR numbers of special files?
