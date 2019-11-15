@@ -119,6 +119,8 @@
 * How can you determine which package is better: openssh-server-5.3p1-118.1.el6_8.x86_64 or openssh-server-6.6p1-1.el6.x86_64 ?
 * Can you explain to me the difference between block based, and object based storage?
 
+<a href="https://dev-engineer.blogspot.com/2019/10/linux_9.html"> Вопросы с ответами </a>
+
 #### [[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
 
 * What is a tunnel and how you can bypass a http proxy?
@@ -269,6 +271,7 @@
  * ```netstat```
  * ```tcpdump```
  * ```lsof```
+ * ```cpio```
  
  <a href="https://dev-engineer.blogspot.com/2019/11/linux_44.html"> Вопросы с ответами </a>
  
