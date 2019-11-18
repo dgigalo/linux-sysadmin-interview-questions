@@ -123,6 +123,7 @@
 
 #### [[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
 
+* Как сбросить кэш оперативной памяти?
 * What is a tunnel and how you can bypass a http proxy?
 * What is the difference between IDS and IPS?
 * What shortcuts do you use on a regular basis?
@@ -145,6 +146,7 @@
 * How can you remove/delete a file with file-name consisting of only non-printable/non-type-able characters?
 * How can you increase or decrease the priority of a process in Linux?
 
+<a href="https://dev-engineer.blogspot.com/2019/11/linux_17.html"> Вопросы с ответами </a>
 
 #### [[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
 
