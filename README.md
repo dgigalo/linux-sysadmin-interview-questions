@@ -84,10 +84,9 @@
 * Что такое SNMP и для чего он используется?
 * Как уменьшить размер файла, который используется в текущий момент(например, файла лога)?
 * Что такое переадресация SSH-порта?
-* What is the difference between local and remote port forwarding?
-* What are the steps to add a user to a system without using useradd/adduser?
+* Как добавить пользователя без использования команд useradd/adduser?
+* Опишите команду mknod и расскажите когда вы её используете?
 * What is MAJOR and MINOR numbers of special files?
-* Describe the mknod command and when you'd use it.
 * Describe a scenario when you get a "filesystem is full" error, but 'df' shows there is free space.
 * Describe a scenario when deleting a file, but 'df' not showing the space being freed.
 * Describe how 'ps' works.
