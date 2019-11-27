@@ -274,6 +274,8 @@
  * ```tcpdump```
  * ```lsof```
  * ```cpio```
+ * ```ps```
+ * ```nohup```
  
  <a href="https://dev-engineer.blogspot.com/2019/11/linux_44.html"> Вопросы с ответами </a>
  
