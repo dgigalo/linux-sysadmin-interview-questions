@@ -86,9 +86,8 @@
 * Что такое переадресация SSH-порта?
 * Как добавить пользователя без использования команд useradd/adduser?
 * Опишите команду mknod и расскажите когда вы её используете?
-* What is MAJOR and MINOR numbers of special files?
-* Describe a scenario when you get a "filesystem is full" error, but 'df' shows there is free space.
-* Describe a scenario when deleting a file, but 'df' not showing the space being freed.
+* Загрузка диского пространства 100%, вы удалили огромный файл логов, но df показывает - нет свободного места. В чем проблема?
+* Вы получаете ошибку "filesystem is full", хотя 'df' говорит об обратном, место есть. В чем проблема?
 * Describe how 'ps' works.
 * What happens to a child process that dies and has no parent process to wait for it and what’s bad about this?
 * Explain briefly each one of the process states.
@@ -117,6 +116,7 @@
 * How can you list the contents of a package?
 * How can you determine which package is better: openssh-server-5.3p1-118.1.el6_8.x86_64 or openssh-server-6.6p1-1.el6.x86_64 ?
 * Can you explain to me the difference between block based, and object based storage?
+* What is MAJOR and MINOR numbers of special files?
 
 <a href="https://dev-engineer.blogspot.com/2019/10/linux_9.html"> Вопросы с ответами </a>
 
