@@ -239,19 +239,20 @@
 
 * В директории 500 файлов, необходимо найти все файлы свыше 20 ГБ, отсортировать по размеру, отобразить 5 самых больших файлов.
 * Как разделить файл на несколько частей без архиватора? Например, 10 гб файл разделить по 1 гб.
-* Unpack test.tar.gz without man pages or google.
-* Remove all "*.pyc" files from testdir recursively?
-* Search for "my konfu is the best" in all *.py files.
-* Replace the occurrence of "my konfu is the best" with "I'm a linux jedi master" in all *.txt files.
-* Test if port 443 on a machine with IP address X.X.X.X is reachable.
-* Get http://myinternal.webserver.local/test.html via telnet.
-* How to send an email without a mail client, just on the command line?
+* Распакуйте test.tar.gz без использрования google и справки.
+* Рекурсивно удалите все файлы с раширением "*.pyc" из тестовой директории?
+* Найдите строку "my konfu is the best" во всех файлах с расширением *.py.
+* Замените вхождение фразы "my konfu is the best" на "I'm a linux jedi master" во всех *.txt файлах.
+* Проверить доступность 443 порта на машине с IP-адресом X.X.X.X
+* Получить содержимое http://myinternal.webserver.local/test.html с помощью telnet'a.
+* Отправить письмо используя командную строку(command line).
+* Найти все файлы, которые использовались за последние 30 дней.
+* Объясните следующую команду ```(date ; ps -ef | awk '{print $1}' | sort | uniq | wc -l ) >> Activity.log```
 * Write a ```get_prim``` method in python/perl/bash/pseudo.
-* Find all files which have been accessed within the last 30 days.
-* Explain the following command ```(date ; ps -ef | awk '{print $1}' | sort | uniq | wc -l ) >> Activity.log```
 * Write a script to list all the differences between two directories.
 * In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occurred every hour or a specific hour.
 
+<a href="https://dev-engineer.blogspot.com/2019/11/linux_28.html"> Вопросы с ответами </a>
 
 #### [[⬆]](#toc) <a name='commands'>Команды:</a>
 * Что выполняют следующие команды?
