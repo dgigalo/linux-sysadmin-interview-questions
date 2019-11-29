@@ -88,8 +88,8 @@
 * Опишите команду mknod и расскажите когда вы её используете?
 * Загрузка диского пространства 100%, вы удалили огромный файл логов, но df показывает - нет свободного места. В чем проблема?
 * Вы получаете ошибку "filesystem is full", хотя 'df' говорит об обратном, место есть. В чем проблема?
-* Describe how 'ps' works.
-* What happens to a child process that dies and has no parent process to wait for it and what’s bad about this?
+* Расскажите как работает команда 'ps'.
+* Что происходит с дочерним процессом, который завершил свое выполнение, но у которого нет родительского процесса ожидающего его завершение? Почему это плохо?
 * Explain briefly each one of the process states.
 * How to know which process listens on a specific port?
 * What is a zombie process and what could be the cause of it?
