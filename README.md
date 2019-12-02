@@ -76,7 +76,6 @@
 * Что такое фильтр пакетов (packet filter) и как он работает?
 * Что такое виртуальная память(Virtual Memory)?
 * Что такое swap и для чего используется?
-* Какие записи ДНС вы знаете, для чего они используются?
 * Что такое "sticky bit"?
 * Для чего предназначен бит неизменяемости(immutable bit)?
 * Что такое жесткая ссылка, символическая? Чем отличаются? Что произойдет если удалить источник, на который указывает ссылка?
@@ -90,11 +89,9 @@
 * Вы получаете ошибку "filesystem is full", хотя 'df' говорит об обратном, место есть. В чем проблема?
 * Расскажите как работает команда 'ps'.
 * Что происходит с дочерним процессом, который завершил свое выполнение, но у которого нет родительского процесса ожидающего его завершение? Почему это плохо?
-* Explain briefly each one of the process states.
-* How to know which process listens on a specific port?
-* What is a zombie process and what could be the cause of it?
-* You run a bash script and you want to see its output on your terminal and save it to a file at the same time. How could you do it?
-* Explain what echo "1" > /proc/sys/net/ipv4/ip_forward does.
+* Кратко опишите каждое состояние процесса(process states) в ОС Linux.
+* Вы запускаете скрипт и хотите посмотреть вывод в терминале и сохранить в файл, как это можно сделать?
+* Объясните, что выполнит данная команда "1" > /proc/sys/net/ipv4/ip_forward
 * Can you have several HTTPS virtual hosts sharing the same IP?
 * What is a wildcard certificate?
 * Which Linux file types do you know?
@@ -227,6 +224,7 @@
 
 #### [[⬆]](#toc) <a name='web'>Веб вопросы:</a>
 * Какую функцию выполняет DNS в сети?
+* Какие записи ДНС вы знаете, для чего они используются?
 * Что такое HTTP?
 * Что такое HTTP-proxy и как он работает?
 * Кратко опишите как работает HTTPS.
@@ -248,6 +246,7 @@
 * Отправить письмо используя командную строку(command line).
 * Найти все файлы, которые использовались за последние 30 дней.
 * Объясните следующую команду ```(date ; ps -ef | awk '{print $1}' | sort | uniq | wc -l ) >> Activity.log```
+* Как узнать какой процесс запущен на определенном порту?
 * Write a ```get_prim``` method in python/perl/bash/pseudo.
 * Write a script to list all the differences between two directories.
 * In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occurred every hour or a specific hour.
