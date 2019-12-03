@@ -91,10 +91,8 @@
 * Что происходит с дочерним процессом, который завершил свое выполнение, но у которого нет родительского процесса ожидающего его завершение? Почему это плохо?
 * Кратко опишите каждое состояние процесса(process states) в ОС Linux.
 * Вы запускаете скрипт и хотите посмотреть вывод в терминале и сохранить в файл, как это можно сделать?
-* Объясните, что выполнит данная команда "1" > /proc/sys/net/ipv4/ip_forward
-* Can you have several HTTPS virtual hosts sharing the same IP?
-* What is a wildcard certificate?
-* Which Linux file types do you know?
+* Объясните, что выполнит данная команда echo "1" > /proc/sys/net/ipv4/ip_forward
+* Какие типы файлов вы знаете в ОС Linux?
 * What is the difference between a process and a thread? And parent and child processes after a fork system call?
 * What is the difference between exec and fork?
 * What is "nohup" used for?
@@ -230,6 +228,8 @@
 * Кратко опишите как работает HTTPS.
 * Что означает директива upstream в настройках nginx'a?
 * Кратко опишите действия по созданию и установке ssl-сертифката для сайта https://foo.example.com
+* Можно ли использовать несколько SSL-хостов на одном айпи-адресе?
+* Что такое wildcard сертификат?
 
 <a href="https://dev-engineer.blogspot.com/2019/11/linux.html"> Вопросы с ответами </a>
 
