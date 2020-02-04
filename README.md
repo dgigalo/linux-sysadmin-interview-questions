@@ -206,6 +206,7 @@
 * What's the relationship between continuous delivery and DevOps?
 * What are the important aspects of a system of continuous integration and deployment?
 * How would you enable network file sharing within AWS that would allow EC2 instances in multiple availability zones to share data?
+* Что такое ELK-стек? Расскажите про основные компоненты. 
 
 #### [[⬆]](#toc) <a name='fun'>Веселые вопросы:</a>
 
