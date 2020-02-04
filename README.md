@@ -93,7 +93,7 @@
 * Вы запускаете скрипт и хотите посмотреть вывод в терминале и сохранить в файл, как это можно сделать?
 * Объясните, что выполнит данная команда echo "1" > /proc/sys/net/ipv4/ip_forward
 * Какие типы файлов вы знаете в ОС Linux?
-* What is the difference between a process and a thread? And parent and child processes after a fork system call?
+* В чем разница между процессом и потоком?
 * What is the difference between exec and fork?
 * What is "nohup" used for?
 * What is the difference between these two commands?
