@@ -22,12 +22,8 @@
 
 #### [[⬆]](#toc) <a name='general'>Общие вопросы:</a>
 
-* Что вы изучали в последнее время?
-* Расскажите какие инструменты разработки/администрирования вы используете(OS, Editor, Browsers, Tools etc.)
-* Расскажите о последнем linux-проекте, на котором вы работали.
-* Расскажите какую вы совершили ошибку недавно(давно) и какой вывод вы сделали?
-* Почему мы должны вас выбрать?
-* What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
+* Каким способом можно диагностировать работу java-приложения? <br>
+  Воспользоваться консолью работы приложения, проверить логи или воспользоваться другими средствами мониторинга. <br>
 * What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
 * What is a level 0 backup? What is an incremental backup?
