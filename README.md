@@ -11,11 +11,10 @@
   1. [Вопросы среднего уровня](#medium)
   1. [Hard Linux Questions](#hard)
   1. [Expert Linux Questions](#expert)
-  1. [Networking Questions](#network)
   1. [MySQL Questions](#mysql)
   1. [DevOps Questions](#devop)
   1. [Веселые вопросы](#fun)
-  1. [Веб вопросы](#web)
+  1. [Сетевые вопросы](#web)
   1. [Практикум](#demo)
   1. [Команды](#commands)
   1. [Other Great References](#references)
@@ -160,30 +159,6 @@ df -h
 * What is LUKS? How to use it?
 
 
-#### [[⬆]](#toc) <a name='network'>Networking Questions:</a>
-
-* What is localhost and why would ```ping localhost``` fail?
-* What is the similarity between "ping" & "traceroute" ? How is traceroute able to find the hops.
-* What is the command used to show all open ports and/or socket connections on a machine?
-* Is 300.168.0.123 a valid IPv4 address?
-* Which IP ranges/subnets are "private" or "non-routable" (RFC 1918)?
-* What is a VLAN?
-* What is ARP and what is it used for?
-* What is the difference between TCP and UDP?
-* What is the purpose of a default gateway?
-* What is command used to show the routing table on a Linux box?
-* A TCP connection on a network can be uniquely defined by 4 things. What are those things?
-* When a client running a web browser connects to a web server, what is the source port and what is the destination port of the connection?
-* How do you add an IPv6 address to a specific interface?
-* You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives you the response ```sendmsg: operation not permitted```. What could be wrong?
-* What is SNAT and when should it be used?
-* Explain how could you ssh login into a Linux system that DROPs all new incoming packets using a SSH tunnel.
-* How do you stop a DDoS attack?
-* How can you see content of an ip packet?
-* What is IPoAC (RFC 1149)?
-* What will happen when you bind port 0?
-
-
 #### [[⬆]](#toc) <a name='mysql'>MySQL questions:</a>
 
 * How do you create a user?
@@ -230,23 +205,39 @@ df -h
 
 <a href="https://dev-engineer.blogspot.com/2019/10/linux_8.html"> Вопросы с ответами </a>
 
-#### [[⬆]](#toc) <a name='web'>Веб вопросы:</a>
-* Какую функцию выполняет DNS в сети?
-* Какие записи ДНС вы знаете, для чего они используются?
-* Что такое HTTP?
-* Что такое HTTP-proxy и как он работает?
-* Кратко опишите как работает HTTPS.
+#### [[⬆]](#toc) <a name='web'>Сетевые вопросы:</a>
+* Какую функцию выполняет DNS в сети?<br>
+  DNS — система для получения информации о доменах. Чаще всего используется для получения IP-адреса по имени хоста, получения информации о маршрутизации почты. <br>
+* Какие записи ДНС вы знаете, для чего они используются? <br>
+  Записи DNS, или ресурсные записи (resource records), — единицы хранения и передачи информации в DNS.
+  Запись A (address record) или запись адреса связывает имя хоста с адресом протокола IPv4
+  Запись AAAA (IPv6 address record) связывает имя хоста с адресом протокола IPv6.
+  Запись CNAME (canonical name record) или каноническая запись имени (псевдоним) используется для перенаправления на другое имя.
+  Запись MX (mail exchange) или почтовый обменник указывает сервер(ы) обмена почтой для данного домена.
+  Запись NS (name server) указывает на DNS-сервер для данного домена.
+  Запись PTR (pointer[5][6]) обратная DNS-запись или запись указателя связывает IP-адрес хоста с его каноническим именем.<br>
+* Что такое HTTP? <br>
+  HTTP (от англ. HyperText Transfer Protocol — протокол передачи гипертекста) — это прикладной протокол передачи данных в сети.<br>
+* Что такое HTTP-proxy и как он работает? <br>
+  Сервер-посредник — промежуточный сервер в сети, выполняющий роль посредника между пользователем и целевым сервером, позволяющий клиентам как выполнять косвенные запросы (принимая и передавая их через прокси-сервер) к другим сетевым службам, так и получать ответы. Клиент подключается к прокси-серверу и запрашивает какой-либо ресурс, расположенный на другом сервере. Затем прокси-сервер либо подключается к указанному серверу и получает ресурс у него, либо возвращает ресурс из собственного кэша (в случаях, если прокси имеет свой кэш). <br>
+* Кратко опишите как работает HTTPS.<br>
+  HTTPS не является отдельным протоколом передачи данных, а представляет собой расширение протокола HTTP с надстройкой шифрования, т.к.
+передаваемые по протоколу HTTP данные не защищены. <br>
 * На каком уровне работает протокол HTTP? А протокол HTTPS? В чем различие HTTP и HTTPS<br>
-  HTTP (от англ. HyperText Transfer Protocol — протокол передачи гипертекста) — это прикладной протокол передачи данных в сети. <br>
+  На прикладном уровне. <br>
   HTTPS (от англ. HyperText Transfer Protocol Secure — безопасный протокол передачи гипертекста) — это расширение протокола HTTP,   поддерживающее шифрование посредством криптографических протоколов SSL и TLS. <br>
-  HTTPS не является отдельным протоколом передачи данных, а представляет собой расширение протокола HTTP с надстройкой шифрования;
-передаваемые по протоколу HTTP данные не защищены;<br>
   HTTPS обеспечивает конфиденциальность информации путем ее шифрования;<br>
   HTTP использует порт 80, HTTPS — порт 443.<br>
-* Что означает директива upstream в настройках nginx'a?
-* Кратко опишите действия по созданию и установке ssl-сертифката для сайта https://foo.example.com
-* Можно ли использовать несколько SSL-хостов на одном айпи-адресе?
+* Что означает директива upstream в настройках nginx'a? <br>
+  Данная директива включает балансировку нагрузки. По умолчанию, соединения распределяются по серверам циклически (в режиме round-robin) с учётом весов серверов.<br>
+* Кратко опишите действия по созданию и установке ssl-сертифката для сайта https://foo.example.com <br>
+  1. Купить сертификат у проверенного центра авторизации или сгенерировать само подписанный
+  2. В настройках вашего сервера включить поддержку ssl и указать путь к сертификату. <br>
+* Можно ли использовать несколько SSL-хостов на одном айпи-адресе? <br>
+  Да, с помощью веб-сервера это можно сделать. <br>
 * Что такое wildcard сертификат?
+  Wildcard-сертификат — сертификат открытого ключа, который может использоваться с несколькими поддоменами.
+Например, один сертификат для *.example.com обеспечит домены payment.example.com, contact.example.com, login-secure.example.com <br>
 * Что такое NAT, как он работает и зачем нужен?<br>
   NAT (Network Address Translation) – технология преобразовывания приватных IP-адресов во внешние в IPv4. Благодаря этому процессу ваша виртуальная машина получает доступ в Интернет. Механизм NAT как раз осуществляет подмену (или «маскировку») серых адресов на белые и наоборот. <br>
 * На каком уровне коммуникационной модели OSI возможны сжатие и шифрование данных? <br>
@@ -259,8 +250,25 @@ df -h
   User Datagram Protocol - Транспортный протокол, передающий сообщения-датаграммы без необходимости установки соединения в IP-сети. <br>
 * Чем отличается TCP от UDP? <br>
   TCP исключает потери данных, дублирование и перемешивание пакетов, задержки. UDP все это допускает, и соединение для работы ему не требуется. <br>
-  
-<a href="https://dev-engineer.blogspot.com/2019/11/linux.html"> Вопросы с ответами </a>
+* What is localhost and why would ```ping localhost``` fail?
+* What is the similarity between "ping" & "traceroute" ? How is traceroute able to find the hops.
+* What is the command used to show all open ports and/or socket connections on a machine?
+* Is 300.168.0.123 a valid IPv4 address?
+* Which IP ranges/subnets are "private" or "non-routable" (RFC 1918)?
+* What is a VLAN?
+* What is ARP and what is it used for?
+* What is the purpose of a default gateway?
+* What is command used to show the routing table on a Linux box?
+* A TCP connection on a network can be uniquely defined by 4 things. What are those things?
+* When a client running a web browser connects to a web server, what is the source port and what is the destination port of the connection?
+* How do you add an IPv6 address to a specific interface?
+* You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives you the response ```sendmsg: operation not permitted```. What could be wrong?
+* What is SNAT and when should it be used?
+* Explain how could you ssh login into a Linux system that DROPs all new incoming packets using a SSH tunnel.
+* How do you stop a DDoS attack?
+* How can you see content of an ip packet?
+* What is IPoAC (RFC 1149)?
+* What will happen when you bind port 0?
 
 #### [[⬆]](#toc) <a name='demo'>Практикум</a>
 
