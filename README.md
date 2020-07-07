@@ -13,6 +13,7 @@
   1. [Expert Linux Questions](#expert)
   1. [MySQL Questions](#mysql)
   1. [DevOps Questions](#devop)
+  1. [Вопросы по Elastic'у](#elk)
   1. [Веселые вопросы](#fun)
   1. [Сетевые вопросы](#web)
   1. [Практикум](#demo)
@@ -186,7 +187,13 @@ df -h
 * What's the relationship between continuous delivery and DevOps?
 * What are the important aspects of a system of continuous integration and deployment?
 * How would you enable network file sharing within AWS that would allow EC2 instances in multiple availability zones to share data?
+
+
+#### [[⬆]](#toc) <a name='elk'>Вопросы по Elastic'у</a>
 * Что такое ELK-стек? Расскажите про основные компоненты. 
+* Какой оптимальный размер шарда?<br>
+  Нет абсолютной величины для этого правила. It depends. Вы можете эксперементировть на этот счет и выбрать оптимальный для ваших потребностей на основе данных и запросов.   Оф. документация говрит, что размер шарда должен быть в пределах от нескольких ГБ до нескольких десятков ГБ. <br>
+  
 
 #### [[⬆]](#toc) <a name='fun'>Веселые вопросы:</a>
 
