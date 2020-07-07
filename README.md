@@ -278,23 +278,37 @@ df -h
   find /data/ -size +20G | sort -r | tail -5 <br>
 * Как разделить файл на несколько частей без архиватора? Например, 10 гб файл разделить по 1 гб. <br>
   Для этой цели подойдет команда split: split -b 1G somefile <br>
-* Распакуйте test.tar.gz без использрования google и справки.
-  tar xvf test.tar.gz
+* Распакуйте test.tar.gz без использрования google и справки. <br>
+  tar xvf test.tar.gz <br>
 * Рекурсивно удалите все файлы с раширением "*.pyc" из тестовой директории? <br>
-  find /testdir -type f -name '*.pyc' -delete
-* Найдите строку "my konfu is the best" во всех файлах с расширением *.py.
-* Замените вхождение фразы "my konfu is the best" на "I'm a linux jedi master" во всех *.txt файлах.
-* Проверить доступность 443 порта на машине с IP-адресом X.X.X.X
-* Получить содержимое http://myinternal.webserver.local/test.html с помощью telnet'a.
-* Отправить письмо используя командную строку(command line).
-* Найти все файлы, которые использовались за последние 30 дней.
-* Объясните следующую команду ```(date ; ps -ef | awk '{print $1}' | sort | uniq | wc -l ) >> Activity.log```
-* Как узнать какой процесс запущен на определенном порту?
-* Write a ```get_prim``` method in python/perl/bash/pseudo.
-* Write a script to list all the differences between two directories.
-* In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occurred every hour or a specific hour.
-
-<a href="https://dev-engineer.blogspot.com/2019/11/linux_28.html"> Вопросы с ответами </a>
+  find /testdir -type f -name '*.pyc' -delete <br>
+* Найдите строку "my konfu is the best" во всех файлах с расширением *.py. <br>
+  find / -type f -name '*.py' | grep -rnw -e 'my konfu is the best' <br>
+  Grep options: <br>
+   -r or -R включаем рекурсию <br>
+   -n подсвечиваем номер строки <br>
+   -w ищем точное совпадение <br>
+* Замените вхождение фразы "my konfu is the best" на "I'm a linux jedi master" во всех *.txt файлах. <br>
+  find / -type f -name '*.txt' | grep -rnw -e 'my konfu is the best' | sed -i 's/my konfu is the best/I'm a linux jedi master/g' * 
+* Проверить доступность 443 порта на машине с IP-адресом X.X.X.X <br>
+  telnet x.x.x.x 443
+* Получить содержимое http://myinternal.webserver.local/test.html с помощью telnet'a. <br>
+  telnet myinternal.webserver.local <br>
+  GET /test.html <br>
+* Отправить письмо используя командную строку(command line). <br>
+  telnet mailserver.com 25 <br>
+  HELO imfromthere.com <br>
+  MAIL FROM: someaddress@imfromthere.com <br>
+  RCPT TO: some@email.add <br>
+  DATA Данные письма, конец письма заканчиваются '.' <br>
+* Найти все файлы, которые использовались за последние 30 дней. <br>
+  find . -type f -mtime -30 -printf "%M %u %g %TR %TD %p\n"
+* Объясните следующую команду ```(date ; ps -ef | awk '{print $1}' | sort | uniq | wc -l ) >> Activity.log``` <br>
+* Как узнать какой процесс запущен на определенном порту? <br>
+  netstat -tunlp | grep portnumber
+* Write a ```get_prim``` method in python/perl/bash/pseudo. <br>
+* Write a script to list all the differences between two directories. <br>
+* In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occurred every hour or a specific hour. <br>
 
 #### [[⬆]](#toc) <a name='commands'>Команды:</a>
 * Что выполняют следующие команды?
