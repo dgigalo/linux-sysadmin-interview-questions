@@ -98,10 +98,10 @@ df -h
 * Объясните, что выполнит данная команда echo "1" > /proc/sys/net/ipv4/ip_forward
 * Какие типы файлов вы знаете в ОС Linux?
 * В чем разница между процессом и потоком?
-* Какими командами посмотреть общую информацию о системе?
-  lscpu - послная статистика о CPU.
-  fdisk -l все о дисках
-  memory - free -t -m
+* Какими командами посмотреть общую информацию о системе? <br>
+  lscpu - послная статистика о CPU. <br>
+  fdisk -l все о дисках <br>
+  memory - free -t -m <br>
 * What is the difference between exec and fork?
 * What is "nohup" used for?
 * What is the difference between these two commands?
