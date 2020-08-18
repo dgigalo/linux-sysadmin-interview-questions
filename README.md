@@ -8,7 +8,7 @@
 
   1. [Общие вопросы](#general)
   1. [Простые вопросы](#simple)
-  1. [Вопросы среднего уровня](#medium)
+  1. [Вопросы по системе](#system)
   1. [Hard Linux Questions](#hard)
   1. [Expert Linux Questions](#expert)
   1. [MySQL Questions](#mysql)
@@ -71,10 +71,9 @@ uptime
 free
 df -h	
 <br>
-<a href="https://dev-engineer.blogspot.com/2019/10/linux.html"> Вопросы с ответами </a>
 
 
-#### [[⬆]](#toc) <a name='medium'>Вопросы среднего уровня:</a>
+#### [[⬆]](#toc) <a name='system'>Вопросы по системе:</a>
 
 * Что обозначает ```&``` после команды?
 * Что обозначает ```& disown``` после команды?
@@ -99,6 +98,10 @@ df -h
 * Объясните, что выполнит данная команда echo "1" > /proc/sys/net/ipv4/ip_forward
 * Какие типы файлов вы знаете в ОС Linux?
 * В чем разница между процессом и потоком?
+* Какими командами посмотреть общую информацию о системе?
+  lscpu - послная статистика о CPU.
+  fdisk -l все о дисках
+  memory - free -t -m
 * What is the difference between exec and fork?
 * What is "nohup" used for?
 * What is the difference between these two commands?
@@ -117,8 +120,6 @@ df -h
 * How can you determine which package is better: openssh-server-5.3p1-118.1.el6_8.x86_64 or openssh-server-6.6p1-1.el6.x86_64 ?
 * Can you explain to me the difference between block based, and object based storage?
 * What is MAJOR and MINOR numbers of special files?
-
-<a href="https://dev-engineer.blogspot.com/2019/10/linux_9.html"> Вопросы с ответами </a>
 
 #### [[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
 
