@@ -13,6 +13,7 @@
   1. [Expert Linux Questions](#expert)
   1. [MySQL Questions](#mysql)
   1. [DevOps Questions](#devop)
+  1. [Вопросы по Docker'у](#docker)
   1. [Вопросы по Elastic'у](#elk)
   1. [Веселые вопросы](#fun)
   1. [Сетевые вопросы](#web)
@@ -189,6 +190,11 @@ df -h
 * What are the important aspects of a system of continuous integration and deployment?
 * How would you enable network file sharing within AWS that would allow EC2 instances in multiple availability zones to share data?
 
+#### [[⬆]](#toc) <a name='docker'>Вопросы по Docker'у</a>
+* При ребилде образа сколько слоев получается? 
+* Как остановить все контейнеры в докере? <br>
+  docker stop $(docker ps -a -q)<br>
+  docker rm $(docker ps -a -q)<br>
 
 #### [[⬆]](#toc) <a name='elk'>Вопросы по Elastic'у</a>
 * Что такое ELK-стек? Расскажите про основные компоненты. 
