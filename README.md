@@ -171,6 +171,8 @@ df -h
 
 #### [[⬆]](#toc) <a name='devop'>DevOps Questions:</a>
 
+* Какие инструменты тестирования программного обеспечения вы использовали?
+  Telerik, Selenium. 
 * Can you describe your workflow when you create a script?
 * What is GIT?
 * What is a dynamically/statically linked file?
