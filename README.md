@@ -27,7 +27,7 @@
 * <b>Каким способом можно диагностировать работу java-приложения?</b> <br>
   Воспользоваться консолью работы приложения, проверить логи или воспользоваться другими средствами мониторинга. <br>
 * <b>What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.</b>
-* What is RAID? What is RAID0, RAID1, RAID5, RAID10?
+* <b>What is RAID? What is RAID0, RAID1, RAID5, RAID10?</b>
 * What is a level 0 backup? What is an incremental backup?
 * Describe the general file system hierarchy of a Linux system.
 * Which difference have between public and private SSH key?
@@ -35,9 +35,13 @@
 
 #### [[⬆]](#toc) <a name='simple'>Базовые вопросы:</a>
 
-* Как называется главный пользователь Linux системы и назовите его UID?<br>
+* <b>Как называется главный пользователь Linux системы и назовите его UID?</b><br>
   root, 0 <br>
-* Как посмотреть все файлы, включая скрытые в директории?
+* <b>Какой процесс идет с пидом 1?</b>  
+  Самый первый процесс при запуске системы получает пид 1(PID 1), так называемый инит(init)<br />
+  Если этот процесс завершается по какой-либо причине, все остальные процессы тоже завершаются<br />
+  Если завершается процесс, у которогое есть потомки, все потомки переходят(reparented) под процесс с пидом 1<br />
+* <b>Как посмотреть все файлы, включая скрытые в директории?</b>
   ls -la <br>
 * Какой командой можно удалить папку вместе со всем содержимым?
   rm -fr <br>
