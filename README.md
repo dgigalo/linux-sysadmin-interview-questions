@@ -26,7 +26,7 @@
 
 * <b>Каким способом можно диагностировать работу java-приложения?</b> <br>
   Воспользоваться консолью работы приложения, проверить логи или воспользоваться другими средствами мониторинга. <br>
-* What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
+* <b>What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.</b>
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
 * What is a level 0 backup? What is an incremental backup?
 * Describe the general file system hierarchy of a Linux system.
