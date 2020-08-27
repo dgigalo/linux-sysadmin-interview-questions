@@ -24,7 +24,7 @@
 
 #### [[⬆]](#toc) <a name='general'>Общие вопросы:</a>
 
-* Каким способом можно диагностировать работу java-приложения? <br>
+* <b>Каким способом можно диагностировать работу java-приложения?</b> <br>
   Воспользоваться консолью работы приложения, проверить логи или воспользоваться другими средствами мониторинга. <br>
 * What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
