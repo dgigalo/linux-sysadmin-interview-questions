@@ -250,7 +250,8 @@ df -h
   docker stop $(docker ps -a -q)<br>
   docker rm $(docker ps -a -q)<br>
 * <b> Как показать контейнеры по имени? </b> <br> 
-  docker ps --format '{{.Image}}'<br> 
+  docker ps --format '{{.Image}}'<br>
+  docker ps --format Name:'{{.Names}}',Image:'{{.Image}}'<br>
 
 #### [[⬆]](#toc) <a name='elk'>Вопросы по Elastic'у</a>
 * Что такое ELK-стек? <br>
