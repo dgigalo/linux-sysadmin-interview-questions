@@ -189,7 +189,6 @@ df -h
 * How can you remove/delete a file with file-name consisting of only non-printable/non-type-able characters?
 * How can you increase or decrease the priority of a process in Linux?
 
-<a href="https://dev-engineer.blogspot.com/2019/11/linux_17.html"> Вопросы с ответами </a>
 
 #### [[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
 
@@ -200,18 +199,24 @@ df -h
 * What is LUKS? How to use it?
 
 
-#### [[⬆]](#toc) <a name='mysql'>Вопросы по базам данных:</a>
+#### [[⬆]](#toc) <a name='mysql'>Общие вопросы по системам:</a>
 
-* How do you create a user?
-* How do you provide privileges to a user?
+* How do you DB create a user?
+* How do you provide privileges to a DB user?
 * What is the difference between a "left" and a "right" join?
 * Explain briefly the differences between InnoDB and MyISAM.
 * Describe briefly the steps you need to follow in order to create a simple master/slave cluster.
 * Why should you run "mysql_secure_installation" after installing MySQL?
 * How do you check which jobs are running?
 * How would you take a backup of a MySQL database?
-* Какие типы репликации существуют для БД Postgres?
-* Как происходит репликация в MongoDB? 
+* <b>Какие виды репликации существуют для БД Postgres?</b><br>
+  Логическая репликация (logical или statement replication) выполняется на уровне sql-запросов.<br>
+  Физическая (построчная или row-based) основана на записях, которые лежат в журнале транзакций.<br>
+* <b>Как происходит репликация в MongoDB? </b><br>
+* <b>Какие виды балансировки поддерживает Nginx? </b><br>
+  Round-robin. Веб-сервер по умолчанию распределяет запросы равномерно между бэкендами (но с учетом весов). <br>
+  Least_conn. Запросы сначала отправляются бэкенду с наименьшим количеством активных подключений (но с учетом весов).<br>
+  Hash и IP-hash. При помощи этого метода можно создать своего рода постоянные соединения между клиентами и бэкендами.<br>
 
 #### [[⬆]](#toc) <a name='devop'>DevOps Questions:</a>
 
