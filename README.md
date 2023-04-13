@@ -28,10 +28,10 @@
   Воспользоваться консолью работы приложения, проверить логи или воспользоваться другими средствами мониторинга. <br>
 * <b></b><br>
   
-* <details>
-    <summary>Какие инструменты тестирования программного обеспечения вы использовали?</summary>
-     ```Telerik, Selenium.``` <br> 
-  </details>
+<details>
+    <summary>Какие инструменты тестирования программного обеспечения вы использовали?</summary><br> 
+     <b> Telerik, Selenium. </b><br> 
+ </details>
 * <b>Какие типы файлов вы знаете в ОС Linux?</b> <br>  
 * <b>What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.</b>
 * <b>What is RAID? What is RAID0, RAID1, RAID5, RAID10?</b>
