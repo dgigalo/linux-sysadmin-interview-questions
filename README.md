@@ -476,7 +476,7 @@
 * What is puppet/chef/ansible used for?
 * What is Nagios/Zenoss/NewRelic used for?
 * What is Jenkins/TeamCity/GoCI used for?
-* What is the difference between Containers and VMs?
+
 * What is a virtual IP address? What is a cluster?
 * How do you print all strings of printable characters present in a file?
 * How do you find shared library dependencies?
@@ -492,6 +492,10 @@
 <details>
   <summary>Что такое контейнер Docker?</summary><br> 
     Контейнер — исполняемый пакет программного обеспечения, содержащий все необходимое для запуска приложения, например, системные программы, библиотеки, код, среды исполнения и настройки<br> 
+</details>
+<details>
+  <summary>Основные различия менжу Containers and VMs?</summary><br> 
+    Основные различия между контейнерами (Containers) и виртуальными машинами (VMs) заключаются в их архитектуре и уровне изоляции. Контейнеры обеспечивают легковесную изоляцию на уровне операционной системы, а виртуальные машины предоставляют полную изоляцию на уровне аппаратного обеспечения.<br> 
 </details>
 <details>
   <summary>Назовите наиболее важные команды Docker</summary><br> 
