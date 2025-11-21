@@ -988,3 +988,4 @@ df -h
 * https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
 * http://slideshare.net/kavyasri790693/linux-admin-interview-questions
 * http://blog.sedicomm.com/2019/09/25/40-voprosov-dlya-sobesedovaniya-na-temu-linux/
+* https://docs.google.com/document/d/1Ad6pnSRC6CPmOKncN8xHgI_557DU0zcIeCwheg6lU3s/edit?tab=t.0#heading=h.6sr8b6b86m7g
